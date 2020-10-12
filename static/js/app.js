@@ -38,7 +38,7 @@ function buildPlot(id) {
       var layout = {
         title: "Top 10 Bacteria Found",
         height: 500,
-        width: 1000 
+        width: 805 
       };
   
       // bar chart
@@ -103,7 +103,7 @@ function buildPlot(id) {
     });
     
   }
-  // create function for change event for event listener "optionChanged" to build plots and render meta data
+  // function for change event for event listener "optionChanged" to build plots and render meta data
   function optionChanged(id) {
   
     buildPlot(id);
