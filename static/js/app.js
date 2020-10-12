@@ -38,7 +38,7 @@ function buildPlot(id) {
       var layout = {
         title: "Top 10 Bacteria Found",
         height: 500,
-        width: 805 
+        width: 805
       };
   
       // bar chart
@@ -54,7 +54,8 @@ function buildPlot(id) {
         mode: "markers",
         marker: {
             size: samples.sample_values,
-            color: samples.otu_ids
+            color: samples.otu_ids,
+            colorscale: "Greens"
         },
         text: samples.otu_labels
       };
