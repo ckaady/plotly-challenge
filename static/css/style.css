@@ -1,7 +1,16 @@
 body {
-    background-color: #c5e4eb;
+    background-color: #9bad92;
   }
 
+  .jumbotron{background-color: beige;}
+
   .jumbotron h1{
-    color: #29525c;
+    color: #384d2e;
+    }
+
+    .panel > .panel-heading {
+        background-image: none;
+        background-color: rgb(71, 99, 58);
+        color: white;
+    
     }

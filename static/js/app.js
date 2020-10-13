@@ -28,6 +28,7 @@ function buildPlot(id) {
         x: samplevalues,
         y: OTU_id,
         text: labels,
+        marker: {color: 'rgb(71, 99, 58)'},
         type:"bar",
         orientation: "h"
         };
